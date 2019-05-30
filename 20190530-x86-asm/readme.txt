@@ -5,3 +5,4 @@
 3. testO2.s 经O2级别优化的汇编代码，llvm-gcc -O2 -S -o testO2.s test.c
 4. testO3.s 经O3级别优化的汇编代码，llvm-gcc -O3 -S -o testO3.s test.c
 5. 命令llvm-gcc -S -o manyArgc.o manyArgc.c，查看传7个参数的效果
+6.llvm-gcc -S -o struct.s struct.c 结构体传值
